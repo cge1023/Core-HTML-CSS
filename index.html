@@ -5,47 +5,38 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/styles.css">
         <style>
-            div {
-                margin: 30px;
-                padding: 30px;
-            }
-
             .red {
-                border: 1px solid red;
+                background-color: red;
+                width: 500px;
+                height: 500px;
+                position: relative;
             }
 
             .green {
-                border: 1px solid green;
+                background-color: green;
+                width: 300px;
+                height: 300px;
+                /* position: relative;
+                top: 40px;
+                left: 90px; */
             }
 
             .blue {
-                border: 1px solid blue;
-            }
-
-            b {
-                font-size: 28px;
-                background-color: orange;
-                /* position: fixed 브라우저 기준으로 포지셔닝 해줌 */
-                position: fixed;
-                bottom: 100px;
-                right: 70px;
+                background-color: blue;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                bottom: 40px;
+                right: 10px;
             }
         </style>
     </head>
 
     <body>
-        <div class="red">
-            Men go abroad <b>to wonder at the heights of mountains,</b> at the huge waves of the sea, at the long courses of the rivers, at the vast compass of the ocean, at the circular motions of the stars, and they pass by themselves without wondering.
-        </div>
-
-        <div class="green">
-            A long quotation contains more than four lines of quoted material. Place a colon after the introduction to the quotation, and indent the whole quotation one inch from the left side. These quotations can be either single or double-‐ spaced, and should not contain quotation marks unless they occur in the original text.
-        </div>
-
-        <div class="blue">
-            Henry David Thoreau argued in Walden that men who are over-occupied with labor run the risk of becoming dehumanized. They must be granted the time to learn about, and address, their own shortcomings in order to fully mature as humans:
-        </div>
-
-        </div>
+       <div class="red">
+           <div class="green">
+               <div class="blue"></div>
+           </div>
+       </div>
     </body>
 </html>
