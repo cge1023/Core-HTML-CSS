@@ -2,14 +2,27 @@
 
 <html>
     <head>
-        <title>Background Image</title>
+        <title>display</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            body {
+                font-size: 38px;
+            }
+
+            i {
+                display: block; 
+                /* block display는 새로운 줄에 가려고 하는 속성 */
+            }
+
+            div {
+                display: inline;
+                /* inline display는 딱 필요한 만큼만 가로길이 차지 */
+            }
+        </style>
     </head>
 
     <body>
-        <div class="div1">
-            
-        </div>
+        <div>Hello World!</div>
+        <div>My name is Kaylyn!</div>
     </body>
 </html>
