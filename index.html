@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <title>display</title>
+        <title>Position</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
         <style>
-            body {
-                font-size: 38px;
+            div {
+                margin: 30px;
+                padding: 30px;
             }
 
-            i {
-                display: inline-block;
-                width: 300px;
-                height: 300px;
+            .red {
+                border: 1px solid red;
             }
 
-            /* inline-display는 가로, 세로 길이 지정 불가
-            안에 내용물에 따라 길이가 정해짐 */
+            .green {
+                border: 1px solid green;
+            }
+
+            .blue {
+                border: 1px solid blue;
+            }
+
+            b {
+                font-size: 28px;
+                background-color: orange;
+                position: relative;
+                top: 30px;
+                left: 50px;
+            }
         </style>
     </head>
 
     <body>
-        <div>My <i>name</i> is Kaylyn!</div>
+        <div class="red">
+            Men go abroad <b>to wonder at the heights of mountains,</b> at the huge waves of the sea, at the long courses of the rivers, at the vast compass of the ocean, at the circular motions of the stars, and they pass by themselves without wondering.
+        </div>
+
+        <div class="green">
+            A long quotation contains more than four lines of quoted material. Place a colon after the introduction to the quotation, and indent the whole quotation one inch from the left side. These quotations can be either single or double-‐ spaced, and should not contain quotation marks unless they occur in the original text.
+        </div>
+
+        <div class="blue">
+            Henry David Thoreau argued in Walden that men who are over-occupied with labor run the risk of becoming dehumanized. They must be granted the time to learn about, and address, their own shortcomings in order to fully mature as humans:
+        </div>
+
+        </div>
     </body>
 </html>
