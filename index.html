@@ -10,19 +10,17 @@
             }
 
             i {
-                display: block; 
-                /* block display는 새로운 줄에 가려고 하는 속성 */
+                display: inline-block;
+                width: 300px;
+                height: 300px;
             }
 
-            div {
-                display: inline;
-                /* inline display는 딱 필요한 만큼만 가로길이 차지 */
-            }
+            /* inline-display는 가로, 세로 길이 지정 불가
+            안에 내용물에 따라 길이가 정해짐 */
         </style>
     </head>
 
     <body>
-        <div>Hello World!</div>
-        <div>My name is Kaylyn!</div>
+        <div>My <i>name</i> is Kaylyn!</div>
     </body>
 </html>
