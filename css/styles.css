@@ -1,81 +1,18 @@
-@font-face {
-    src: url('../fonts/BMJUA_otf.otf');
-    font-family: 'Jua';
-  }
-  
-  * {
-    box-sizing: border-box;
-    font-family: 'Jua';
-  }
-  
-  body {
-    background-color: #F0E8D9;
-  }
-  
-  .container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 660px;
-  }
-  
-  .title {
-    font-size: 64px;
-    margin-top: 75px;
-    margin-bottom: 30px;
-    color: #58595B;
-  }
-  
-  .sub-title {
-    font-size: 32px;
-    margin-bottom: 75px;
-    color: #58595B;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 5px;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    float: left;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  
-  .food-pic {
-    width: 300px;
-    height: 200px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .content {
-    padding: 20px;
-  }
-  
-  .food-name {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #58595B;
-  }
-  
-  .food-content {
-    font-size: 16px;
-    margin-bottom: 16px;
-    color: #58595B;
-    text-align: left;
-  }
-  
-  .checkout {
-    color: #0000EE;
-    font-size: 16px;
-    text-decoration: none;
-  }
-  
-  
-  
-  
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #77abff;
+    color: white;
+    padding: 10px 20px;
+}
+
+ul {
+    padding-left: 0;
+    width: 200px;
+
+}
+
+ol {
+    padding-left: 0;
+    width: 200px;
+}
